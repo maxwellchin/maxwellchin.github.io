@@ -1,7 +1,278 @@
+
+
 body {
-	background-color: blue;
+	background-image: url("assets/background.png");
+	background-size: cover;
+	height: 3200px;
 }
 
-h1, p { 
-	color: orange;
+
+
+
+
+img.joinusbottom {
+	height: 22px;
+	display: block;
+	position: relative;
+	z-index: -1;
+	margin-left: auto;
+	margin-right: auto;
+	top: 2450px;
+
 }
+
+
+
+div.header {
+	height:40px;
+	width: 100%;
+	position: fixed;
+	margin: 0px auto;
+	display: block;
+	background: transparent;
+
+}
+
+div.sidebar {
+
+	height: 100%;
+	width: 30px;
+	float: right;
+	display:block;
+	position:fixed;
+	background: transparent;
+	margin: 20px;
+}
+
+
+div.page3 {
+	width: 100%;
+	height: 400px;
+	background: transparent;
+	position: relative;
+	top: 1150px;
+
+}
+
+img.sidebar-cont {
+
+	width: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	position: relative;
+	top: -120px;
+	left:-27px;
+	z-index: 7;
+
+}
+
+img.header-cont {
+	height: 33px;
+	display: block;
+	z-index: ;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+
+	top: 40px;
+	left: -9px;
+}
+
+img.page1text {
+	height: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	top: 180px;
+	z-index: -1
+}
+
+
+
+
+img.page2text {
+	height:300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	top: 850px;
+	z-index: -1;
+
+
+}
+
+
+
+
+img.email-wrap {
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	top: 282px;
+	position: relative;
+	z-index: -1
+}
+
+img.emailbottom {
+	height:30px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	z-index: -1;
+	top: 2270px;
+}
+
+
+
+img.page3-cont {
+	height: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	z-index: -1;
+}
+
+
+/*placeholder color */
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+
+
+img.joinus {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: 40px;
+	position: relative;
+	top:2300px;
+	
+}
+
+
+
+
+
+img.page4text {
+	height: 145px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	top:2200px;
+	position: relative;
+}
+
+
+div.body input#email {
+	background-color: transparent;
+	width: 200px;
+	height: 20px;
+	border: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	position: relative ;
+	display: block;
+	left: 0px;
+	top: 322px;
+	color: black;
+
+	font-size: 15pt;
+	font-family: "HelveticaNeue", sans-serif;
+	outline: none;
+}
+
+
+
+div.body input#bottomemail {
+	background-color: transparent;
+	width:200px;
+	height:20px;
+	border:0px;
+	margin-right:auto;
+	margin-left:auto;
+	position: relative;
+	text-align: center;
+	display: block;
+	color: black;
+	top: 2313px;
+	outline: none;
+	font-size: 12pt;
+	font-family: "HelveticaNeue", sans-serif;
+
+}
+
+input#submit {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+	left: 150px;
+	top: 305px;
+	background: transparent;
+	color: transparent;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+input#bottomsubmit {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	display: block;
+	left: 150px;
+	top: 2300px;
+	background: transparent;
+	color: transparent;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+div.footer {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	margin: 0px auto;
+	display: block;
+	background: transparent;
+	bottom: 80px;
+	z-index: 999999;
+}
+
+img.footer-cont {
+	height: 40px;
+	display: block;
+	z-index: 999999;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: -9px;
+
+
+}
+
